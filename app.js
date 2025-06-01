@@ -40,4 +40,3 @@ fetch('data.json')
     document.getElementById('instagram').textContent = data.instagram;
     document.getElementById('linkedin').textContent = data.linkedin;
   })
-  .catch(err => console.error('JSON laadimisel tekkis viga:', err));
